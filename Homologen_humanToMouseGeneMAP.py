@@ -29,7 +29,7 @@
 				data=['homologue not found',refGenID]
 	return data
 >>> import cobra
->>> refmodel=cobra.io.read_sbml_model('D:/tezDoctory/tez_new/NewMouseModel/Models/Recon3D.xml')
+>>> refmodel=cobra.io.read_sbml_model('/Recon3D.xml')
 >>> refGenes=refmodel.genes
 >>> idList=[]
 >>> for i in refGenes:
